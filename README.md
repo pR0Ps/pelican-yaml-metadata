@@ -1,3 +1,12 @@
+# !!! This plugin has been moved !!!
+
+See: https://github.com/pelican-plugins/yaml-metadata
+
+This plugin now lives under the [pelican-plugins](https://github.com/pelican-plugins) organization.
+The repo is only being kept here in order to not break existing deployments and will receive no
+further development.
+
+
 pelican-yaml-metadata
 =====================
 

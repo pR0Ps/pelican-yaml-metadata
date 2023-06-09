@@ -21,6 +21,11 @@ with contextlib.suppress(ImportError):
 
 
 logger = logging.getLogger(__name__)
+logger.warning(
+    "The pelican-yaml-metadata plugin has moved to a new repo and the currently-installed version will not receive any more updates.\n"
+    "Please follow the new setup instructions at https://github.com/pelican-plugins/yaml-metadata to continue using it."
+)
+
 
 HEADER_RE = re.compile(
     r"^---$"
